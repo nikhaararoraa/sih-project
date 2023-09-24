@@ -1,0 +1,150 @@
+/* Organization.css */
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.organization-background {
+background-color: rgb(103, 168, 23);
+height: 10vh;
+display: flex;
+flex-direction: column; /* Stack the children vertically */
+justify-content: center; /* Center content horizontally */
+align-items: center; /* Center content vertically */
+}
+
+.container {
+display: flex;
+flex-direction: column; /* Stack the children vertically */
+justify-content: center;
+align-items: center;
+height: 60vh;
+width: 60vw;
+margin: auto;
+margin-top: 3%;
+padding: 30px;
+border-radius: 15px; /* Add border-radius for curved edges */
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+background-color:  rgb(157, 179, 131);
+}
+
+.div-1 {
+background-color: #e0f1df;
+display: flex;
+border-radius: 15px; /* Add border-radius for curved edges */
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+width:100%;
+margin:2%;
+ /* Add some padding to give space */
+}
+
+.input-container {
+flex-grow: 1; /* Grow to take remaining space */
+margin-right: 10px; /* Add some margin to separate from buttons */
+}
+
+.input-container input {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.button-container {
+display: flex;
+align-items: center;
+margin:2%;
+}
+
+.submit-button,
+.upload-button {
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.submit-button {
+background-color: #48834a;
+color: white;
+margin-right: 10px;
+}
+
+.upload-button {
+background-color: #48834a;
+color: white;
+}
+
+.div-2 {
+margin-bottom:2%;
+flex: 1; /* Take remaining space */
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: #e0f1df;
+width:100%;
+border-radius: 15px; /* Add border-radius for curved edges */
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Background color for .div-2 */
+
+/* You can add more styles to customize the appearance */
+}
+
+.div-2 input[type="file"] {
+margin: 10px 0; /* Add margin for spacing */
+padding: 10px; /* Add padding for spacing and style */
+border: 2px solid #e0f1df; /* Add a border for the input */
+border-radius: 5px; /* Rounded corners for the input */
+background-color: #fff; /* Background color for the input */
+color: #000000; /* Text color for the input */
+cursor: pointer; /* Change cursor on hover */
+
+/* You can further customize the styles as needed */
+}
+
+.div-2 input[type="file"]:hover {
+background-color: #198b13; /* Background color on hover */
+color: #fff; /* Text color on hover */
+}
+
+.div-3 {
+width :100%;
+border-radius: 15px; /* Add border-radius for curved edges */
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);  /* Take remaining space */
+display: flex;
+align-items: center;
+padding: 10px; /* Add some padding for spacing */
+background-color: #e0f1df; /* Background color for .div-3 */
+
+/* You can add more styles to customize the appearance */
+}
+
+.div-3 button {
+border-radius: 5px;
+padding: 10px 20px; /* Add padding for button spacing */
+border: none; /* Remove button borders */
+background-color: #48834a; /* Button background color */
+color: #fff; /* Button text color */
+cursor: pointer;
+margin:2%; /* Change cursor on hover */
+
+/* You can further customize the button styles as needed */
+}
+
+.div-3 button:hover {
+background-color: #48834a; /* Button background color on hover */
+color: #fff; /* Button text color on hover */
+}
+
+/* Additional styles for the heading */
+.organization-background h1 {
+color: white; /* Text color */
+font-size: 24px; /* Adjust the font size as needed */
+}

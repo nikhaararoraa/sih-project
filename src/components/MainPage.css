@@ -1,0 +1,28 @@
+.main-page {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Adjust the height to control the green section's size */
+    background-color: #84ac75; /* Change the color to your desired shade of green */
+    z-index: -1; /* Place it behind the content */
+}
+
+.div-1,
+.div-2,
+.div-3 {
+width: 200px; /* Increase the size a little more */
+height: 200px; /* Increase the size a little more */
+background-color: #F5FFE9; /* Change the background color */
+margin: 10px;
+padding: 20px;
+border-radius: 15px; /* Add border-radius for curved edges */
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add a 3D box-shadow */
+}

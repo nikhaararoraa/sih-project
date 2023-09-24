@@ -1,0 +1,97 @@
+/* UserPage.css */
+.user-page-container {
+display: flex;
+}
+
+.navbar {
+background-color: #246d43;
+color: white;
+width: 250px; /* Adjust the width of the navbar */
+min-height: 100vh; /* Make the navbar full height */
+}
+
+.navbar ul {
+list-style-type: none;
+padding: 20px; /* Increase padding to increase the size */
+margin: 0; /* Remove default margin */
+}
+
+.navbar li {
+padding: 10px;
+}
+
+.navbar a {
+text-decoration: none;
+color: white;
+font-size: 18px; /* Adjust the font size as needed */
+display: block; /* Make the links block-level elements */
+padding: 10px 20px; /* Add padding to links for spacing */
+transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Style the "ID" link differently */
+.navbar li:first-child a {
+background-color: rgb(26, 76, 21); /* Dark background color */
+border-radius: 5px; /* Rounded corners */
+padding: 15px 20px; /* Increase padding to expand its area */
+}
+
+.navbar a:hover {
+background-color: #3a6d33;
+}
+
+.main-content {
+flex-grow: 1; /* Make the main content expand to fill the remaining space */
+padding: 20px;
+}
+
+/* UserPage.css */
+/* ... (previous styles) */
+
+.horizontal-bar {
+display: flex; /* Display horizontally */
+background-color:  #c6edc7; /* Green background color */
+padding: 10px;
+border-radius: 10px;
+width: 90%;
+height: 20%; /* Adjust the padding as needed */
+flex-direction: column; /* Stack the items vertically */
+align-items: flex-start; /* Align items to the start (left side) */
+}
+
+.horizontal-bar::before,
+.horizontal-bar::after {
+content: "Label 1:";
+color: white;
+font-size: 37px; /* Increase the font size of the labels */
+margin-bottom: 10px; /* Add spacing between labels */
+}
+
+.horizontal-bar::after {
+content: "Label 2:";
+margin-top: 10px; /* Add spacing between labels */
+}
+
+.horizontal-bar div {
+flex-grow: 1;
+flex-basis: 0;
+}
+
+.horizontal-bar::placeholder {
+color: white; /* Change the color of the placeholder text to white */
+background-color: #fff; /* Change the background color of the placeholder */
+padding: 10px; /* Adjust the padding for spacing */
+line-height: 1.5; /* Increase the line height for multiple lines */
+}
+.green-container {
+    border-radius: 10px;
+    background-color:  #c6edc7; /* Green background color */
+    padding: 10px; /* Adjust the padding as needed */
+    margin-top: 20px;
+    flex-direction: column; /* Stack the items vertically */
+    align-items: flex-start;
+    display: flex;
+    width: 90%;
+    height: 70%;
+     /* Add margin to separate it from the horizontal bar */
+}
